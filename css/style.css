@@ -1,0 +1,140 @@
+/* ///////////////////////// BASE STYLES //////////////////////// */
+
+body {
+    background-color: #000;
+    color: #7FF709;
+    font-size: 1.2em;
+    font-family: "Roboto Mono", monospace;
+    text-align: left;
+}
+h1, h2, p {
+    font-size: 1em;
+}
+
+/* COLORS: http://colorhunt.co/c/14832
+#E4F9F5
+#30E3CA
+#11999E
+#40514E
+#268bd2
+ */
+
+section {
+    margin: 0 auto 2%;
+    width: 50%;
+    /*text-align: center;*/
+}
+ul {
+    list-style-type: none;
+}
+a {
+    color: #7FF709;
+    /*text-decoration: none;*/
+    /*maybe this should go back*/
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #268bd2;
+}
+
+/* ///////////////////////// MAIN STYLES //////////////////////// */
+#terminal {
+	margin: 0 auto 2%;
+    width: 50%;
+	margin-top: 100px;
+}
+
+
+#general-info,
+.learn {
+	display: none;
+}
+
+
+/*#general-info {
+    margin-top: 100px;
+}*/
+#portrait-photo {
+    height: 150px;
+    width: 150px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+#short-bio, #online-presence, #abilities-first {
+    display: none;
+}
+.subresult {
+    padding-left: 10%;
+}
+.expand:hover {
+    background-color: #268bd2;
+}
+.learn {
+    cursor: pointer;
+}
+
+/*ul#activities {
+  list-style-type: none;
+}*/
+
+div#short-bio {
+    text-align: justify;
+}
+ul.activities li {
+    display: inline;
+    margin: 10px 10px 0;
+	padding-left: 5%;
+}
+div#attention {
+    color: #11999E;
+}
+.primary {
+    color: #11999E;
+}
+
+#terminal-line {
+	display: none;
+}
+
+#term-prompt {
+	background-color: #000;
+	border: none;
+	color: #7FF709;
+
+	outline: none;
+	margin-bottom: 300px;
+	/*display: none;*/
+}
+/*
+#term-prompt:hover {
+	outline: none;
+}*/
+
+/* ///////////////////////// HELPERS //////////////////////// */
+
+.mt1 {
+    margin-top: 5px;
+}
+.mt2 {
+    margin-top: 10px;
+}
+.mb1 {
+    margin-bottom: 5px;
+}
+.mb2 {
+    margin-bottom: 10px;
+}
+.ml1 {
+    margin-left: 5px;
+}
+.ml2 {
+    margin-left: 10px;
+}
+.mr1 {
+    margin-right: 5px;
+}
+.mr2 {
+    margin-right: 10px;
+}
