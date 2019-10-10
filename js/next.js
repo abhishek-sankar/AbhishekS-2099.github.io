@@ -51,7 +51,9 @@ $(document).ready(function() {
 		"The answer is out there, Neo, and it's looking for you, and it will find you if you want it to.",
 		"So what do you need? Besides a miracle.",
 		"I can only show you the door. You're the one that has to walk through it.",
-		"Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more."
+		"Morpheus: [to Neo who is choosing the red pill] Remember... all I'm offering is the truth. Nothing more.",
+		"It is not who you are underneath, but what you do that defines you.",
+		"Is it just me or is it getting crazier out there?"
 	];
 
 	function getRandomQuote() {
