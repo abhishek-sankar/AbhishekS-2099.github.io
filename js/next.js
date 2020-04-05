@@ -79,7 +79,7 @@ $(document).ready(function() {
 		});
 
 		let instagramLink = $('<a>instagram</a>').attr({
-			'href': 'https://instagram.com/notYourAverageGeek',
+			'href': 'https://www.instagram.com/not.your_average.geek/',
 			'target': '_blank'
 		});
 
