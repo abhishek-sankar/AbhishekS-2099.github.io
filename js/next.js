@@ -85,7 +85,7 @@ $(document).ready(function() {
 
 
 		let linkedinLink = $('<a>LinkedIn</a>').attr({
-			'href': 'www.linkedin.com/in/abhishek-sankar-in',
+			'href': 'https://www.linkedin.com/in/abhishek-sankar-in',
 			'target': '_blank'
 		})
 
