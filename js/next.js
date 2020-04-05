@@ -78,16 +78,16 @@ $(document).ready(function() {
 			'target': '_blank'
 		});
 
-		let instagramLink = $('<a>instagram</a>').attr({
+		let instagramLink = $('<a>Instagram</a>').attr({
 			'href': 'https://www.instagram.com/not.your_average.geek/',
 			'target': '_blank'
 		});
 
 
 		let linkedinLink = $('<a>LinkedIn</a>').attr({
-			'href': 'https://www.linkedin.com/in/abhishek-sankar-in',
+			'href': 'https://www.linkedin.com/in/abhishek-sankar-in/',
 			'target': '_blank'
-		})
+		});
 
 		github.append(githubLink);
 		linkedin.append(linkedinLink);
